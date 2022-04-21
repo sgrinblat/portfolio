@@ -19,7 +19,7 @@ This is my portfolio, is maded with CSS, HTML and Bootstrap 5.
 
 ### Links
 
-- [Live Site URL](sgrinblat.github.io/portfolio)
+- [Live Site URL](https://sgrinblat.github.io/portfolio/)
 
 ## My process
 
