@@ -50,6 +50,14 @@ body.poster {
     background-attachment: fixed;
 }
 
+.personal-image{
+    margin: auto;
+    padding: 30px;
+    height: 500px;
+    border-radius: 35%;
+    display: flex;
+}
+
 .top-5 {
     top: 5px;
 }
@@ -95,7 +103,7 @@ body.poster {
     animation-name: ball-header;
 }
 
-#boton{
+.boton{
     padding: 0;
     margin: 4px;
     background: none;
@@ -158,4 +166,16 @@ a > svg {
 .logo-it:hover{
     transform: scale(1.5);
     transition: all 1s;
+}
+
+@media (max-width: 440px) {
+    .personal-image{
+        height: 200px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 769px) {
+    .personal-image{
+        height: 300px;
+    }
 }
