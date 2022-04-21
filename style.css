@@ -1,0 +1,161 @@
+@media (max-width:991px) {
+    body.poster {
+        margin-top: 60vh;
+    }
+}
+
+*::-webkit-scrollbar{
+    width: 15px;
+    background: #efefef;
+  }
+  
+  *::-webkit-scrollbar-thumb{
+    background: #6610f2;
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover{
+    background: #520ac7;
+  }
+  
+  *::-webkit-scrollbar-thumb:active{
+    background: #3c0594;
+  }
+
+#header{
+    background: linear-gradient(45deg, #6610f2, #6019d2, #5e2ab0, #744eb2);
+    position: relative;
+    background-size: 400% 400%;
+    animation: change 5s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body.poster {
+    background-attachment: fixed;
+}
+
+.top-5 {
+    top: 5px;
+}
+
+.mini-card{
+    background: linear-gradient(45deg, #6610f2, #6019d2, #5e2ab0, #744eb2);
+    position: relative;
+    background-size: 400% 400%;
+    animation: change 5s ease-in-out infinite;
+    box-shadow: 2px 2px 25px -4px rgba(0,0,0,0.40);
+    -webkit-box-shadow: 2px 2px 25px -4px rgba(0,0,0,0.40);
+    -moz-box-shadow: 2px 2px 25px -4px rgba(0,0,0,0.40);
+    transition: all 1s ease-in-out;
+}
+
+.mini-card:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+#mail:hover{
+    color: #6610f2;
+}
+
+#footerp {
+    font-size: 18px;
+    color: white;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation: 2s ease-in-out infinite;
+    animation-name: ball;
+  }
+
+.dot-header{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    animation: 2s ease-in-out infinite;
+    animation-name: ball-header;
+}
+
+#boton{
+    padding: 0;
+    margin: 4px;
+    background: none;
+    border: none;
+}
+a > svg {
+    margin: 8px;
+}
+
+
+@keyframes ball {
+    0% {
+        background-color: #6610f2;
+        
+       
+    }
+    50% {
+      
+        background-color: #4e12ae;
+        
+    }
+    100% {
+        
+        background-color: #6610f2;
+        
+    }
+}
+
+@keyframes ball-header {
+    0% {
+        background-color: #cfcbd5;
+        
+       
+    }
+    50% {
+      
+        background-color: #edd072;
+        
+    }
+    100% {
+        
+        background-color: #cfcbd5;
+        
+    }
+}
+
+#avatar{
+    transition: all 1s;
+}
+
+#avatar:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.logo-it{
+    transition: all 1s;
+}
+
+.logo-it:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
